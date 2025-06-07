@@ -59,7 +59,7 @@
     z-index: -10;
 }
 
-#cta {
+.cta {
     color: var(--body-background);
     font-family: var(--font-text);
     background-color: var(--color-main);
@@ -93,4 +93,176 @@
     font-weight: 200;
     text-transform: uppercase;
     opacity: 0.6;
+}
+
+/* Large desktop */
+@media (max-width: 1600px) {
+  .hero-title .hero_three {
+    left: 30rem;
+  }
+  
+  .hero-title .hero_four {
+    right: 4rem;
+  }
+}
+
+/* Desktop */
+@media (max-width: 1400px) {
+  .hero {
+    padding: 0 3rem;
+  }
+  
+  .hero-title {
+    padding: 8rem 0;
+  }
+  
+  .hero .cursive {
+    font-size: 8rem;
+  }
+  
+  .hero-title h1:nth-child(2) {
+    margin-left: 14rem;
+    margin-top: -4rem;
+  }
+  
+  .hero-title .hero_two {
+    left: 10rem;
+  }
+  
+  .hero-title .hero_three {
+    left: 24rem;
+  }
+}
+
+/* Tablet and smaller desktop */
+@media (max-width: 1200px) {
+  .hero {
+    padding: 0 2rem;
+  }
+  
+  .hero-title {
+    padding: 6rem 0;
+  }
+  
+  .hero .cursive {
+    font-size: 6rem;
+  }
+  
+  .hero-title h1:nth-child(2) {
+    margin-left: 10rem;
+    margin-top: -3rem;
+  }
+  
+  .hero-title .hero_two {
+    left: 8rem;
+    top: 4.5rem;
+  }
+  
+  .hero-title .hero_three {
+    left: 18rem;
+    bottom: 2.5rem;
+  }
+  
+  .hero-title .hero_four {
+    right: 3rem;
+    top: 5.5rem;
+  }
+}
+
+/* Large tablets */
+@media (max-width: 900px) {
+
+  .hero_two, .hero_three, .hero_four, .hero_five { display: none; }
+
+  .hero {
+    padding: 0 1.5rem;
+  }
+  
+  .hero-title {
+    padding: 4rem 0;
+  }
+  
+  .hero .cursive {
+    font-size: 4.5rem;
+  }
+  
+  .hero-title h1:nth-child(2) {
+    margin-left: 6rem;
+    margin-top: -2rem;
+  }
+  
+  .hero-title .hero_two {
+    left: 4rem;
+    top: 3rem;
+  }
+  
+  .hero-title .hero_three {
+    left: 12rem;
+    bottom: 2rem;
+  }
+  
+  .hero-title .hero_four {
+    right: 2rem;
+    top: 3.5rem;
+  }
+  
+  .hero-cta {
+    margin-top: 3rem;
+  }
+}
+
+/* Mobile devices */
+@media (max-width: 600px) {
+  .hero {
+    padding: 0 1rem;
+  }
+  
+  .hero-title {
+    padding: 3rem 0;
+  }
+  
+  .hero .cursive {
+    font-size: 3rem;
+  }
+  
+  .hero-title h1:nth-child(2) {
+    margin-left: 3rem;
+    margin-top: -1.5rem;
+  }
+  
+  .hero-title .hero_two {
+    left: 2rem;
+    top: 2rem;
+    width: 40%;
+  }
+  
+  .hero-title .hero_three {
+    left: 6rem;
+    bottom: 1.5rem;
+    width: 40%;
+  }
+  
+  .hero-title .hero_four {
+    right: 1rem;
+    top: 2.5rem;
+    width: 40%;
+  }
+  
+  .hero-title .hero_five {
+    width: 40%;
+  }
+  
+  .hero-cta {
+    margin-top: 2rem;
+  }
+  
+  .hero-cta p {
+    font-size: 0.875rem;
+    text-align: center;
+  }
+  
+  .cta {
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+  }
 }

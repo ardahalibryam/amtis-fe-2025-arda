@@ -1,3 +1,183 @@
 .why {
-    
+    max-width: var(--max-width);
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    padding: 10rem 7rem;
+}
+
+.why-left {
+    width: 50%;
+}
+
+.why-left {
+    display: flex;
+    flex-direction: column;
+    gap: 3.125rem;
+}
+
+.why-left h2 {
+    text-align: left;
+    font-weight: 400;
+}
+
+.why-dates {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.why-dates hr {
+    width: 352px;
+    height: 4px;
+    background-color: var(--color-main);
+    border: none;
+}
+
+.why-dates p {
+    font-size: 2.5rem;
+    font-family: var(--font-text);
+    color: var(--color-title);
+}
+
+.why-left .cta {
+    width: 9.125rem;
+}
+
+.why-right {
+    width: 50%;
+}
+
+.why-right h3, .who-right h3{
+    text-transform: uppercase;
+    font-family: var(--font-header-main);
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    opacity: 0.6;
+}
+
+.why-right h3 {
+    margin-bottom: 1.5rem;
+}
+
+.why-right p {
+    font-family: var(--font-text);
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+/* Large desktop */
+@media (max-width: 1600px) {
+  .why {
+    gap: 100px;
+    padding: 8rem 5rem;
+  }
+  
+  .why-dates hr {
+    width: 280px;
+  }
+}
+
+/* Desktop */
+@media (max-width: 1400px) {
+  .why {
+    gap: 80px;
+    padding: 6rem 4rem;
+  }
+  
+  .why-dates hr {
+    width: 240px;
+  }
+  
+  .why-right p {
+    font-size: 1.25rem;
+  }
+}
+
+/* Tablet and smaller desktop */
+@media (max-width: 1200px) {
+  .why {
+    gap: 60px;
+    padding: 5rem 3rem;
+  }
+  
+  .why-dates hr {
+    width: 200px;
+  }
+  
+  .why-dates p {
+    font-size: 2rem;
+  }
+  
+  .why-right p {
+    font-size: 1.125rem;
+  }
+}
+
+/* Large tablets */
+@media (max-width: 900px) {
+  .why {
+    flex-direction: column;
+    gap: 40px;
+    padding: 4rem 2rem;
+  }
+  
+  .why-left, .why-right {
+    width: 100%;
+  }
+  
+  .why-left {
+    gap: 2rem;
+  }
+  
+  .why-dates hr {
+    width: 160px;
+  }
+  
+  .why-dates p {
+    font-size: 1.75rem;
+  }
+  
+  .why-right p {
+    font-size: 1rem;
+  }
+}
+
+/* Mobile devices */
+@media (max-width: 600px) {
+  .why {
+    padding: 3rem 1rem;
+    gap: 30px;
+  }
+  
+  .why-left {
+    gap: 1.5rem;
+  }
+  
+  .why-dates {
+    gap: 5px;
+  }
+  
+  .why-dates hr {
+    width: 120px;
+  }
+  
+  .why-dates p {
+    font-size: 1.5rem;
+  }
+  
+  .why-right h3 {
+    margin-bottom: 1rem;
+    font-size: 0.875rem;
+  }
+  
+  .why-right p {
+    font-size: 0.875rem;
+  }
+  
+  .why-left .cta {
+    width: 100%;
+    text-align: center;
+  }
 }

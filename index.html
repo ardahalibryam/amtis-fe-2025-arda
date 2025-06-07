@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="/src/styles/components/who.css" />
     <link rel="stylesheet" href="/src/styles/components/what.css" />
     <link rel="stylesheet" href="/src/styles/components/quote.css" />
+    <link rel="stylesheet" href="/src/styles/components/tickets.css" />
+    <link rel="stylesheet" href="/src/styles/components/footer.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Great+Vibes&display=swap" rel="stylesheet">
@@ -49,7 +51,7 @@
           <img class="hero_five" src="/img/hero_five.png" alt="hero-5">
         </div>
         <div class="hero-cta">
-        <a id="cta" href="#">Купи билет</a>
+        <a class="cta" href="#">Купи билет</a>
         <p>изложба иван милев // 1 юли – 12 август 2025  // TATE Modern, Лондон</p>
         </div>
       </section>
@@ -61,12 +63,14 @@
             <hr>
             <p>12.08</p>
           </div>
-          <a id="cta" href="#">Купи билет</a>
+          <a class="cta" href="#">Купи билет</a>
         </div>
         <div class="why-right">
           <h3>за изложбата</h3>
           <p>„Иван Милев: Българският символизъм в сърцето на Лондон“ е първата мащабна международна изложба на един от най-значимите български художници на 20-ти век.</p>
+          <br>
           <p>Тя има за цел да представи Милев като самобитен европейски творец, чието изкуство съчетава орнаментика, социална чувствителност и мистицизъм.</p>
+          <br>
           <p>Посетителите ще открият визуален свят, в който се преплитат народна естетика, модернизъм и дълбока човешка емоция – все още болезнено актуални и днес.</p>
         </div>
       </section>
@@ -75,18 +79,166 @@
     <div class="who">
       <div class="who-left">
         <img src="/img/portrait.png" alt="">
+        <picture id="who-logo">
+          <source srcset="/img/logo2.svg" type="image/svg+xml">
+          <img src="/img/logo2.svg" alt="logo">
+        </picture>
+      </div>
+      <div class="who-right">
+        <h3>Кой е иван милев?</h3>
+        <div class="who-right-p">
+          <p>Иван Милев (1897 – 1927) е един от най-ярките представители на българския модернизъм и символизъм. Макар и с кратък творчески път, той оставя над 160 произведения – проникнати от дълбока чувствителност, фолклорни мотиви и драматизъм. </p>
+          <p>Учи декоративно изкуство във Виена, вдъхновява се от сецесиона и източноправославната иконопис. Милев умира едва на 30, но творчеството му остава завинаги – като визуална хроника на една цяла епоха.</p>
+          <p>Творчеството на Иван Милев се отличава с дълбок хуманизъм и национално самосъзнание. Той успява да въплъти духа на следвоенна България – изпълнена с болка, надежда и търсене на идентичност. В неговите образи – често жени, страдащи фигури или свети персонажи – се преплитат българският фолклор, модернистичният стил и личната му емоционална дълбочина. Макар и животът му да е кратък, изкуството му надживява времето – и остава актуално, разпознаваемо и дълбоко въздействащо до днес.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="what-title">
+      <div class="what-title-top">
+        <hr>
+        <h2>Какво ще видите?</h2>
+      </div>
+      <p>Потопете се в света на Иван Милев – където образите говорят без думи. В изложбата ще видите едни от най-знаковите му творби, които резонират с теми като вяра, страдание, женска сила и идентичност.</p>
+    </div>
+
+    <section class="what">
+      <div class="what-item">
+        <div class="what-item-top">
+          <h3>Анихора</h3>
+          <h4>(1923 Г.)</h4>
+        </div>
+        <img src="/img/anihora.png" alt="hero-1">
+        <p>'Женски образ в съзерцание – може би самата България, представена като тиха, самотна и вечна. Орнаментиката и пастелната цветова палитра придават на творбата медитативна тежест.'</p>
+      </div>
+      <div class="what-item">
+        <div class="what-item-top">
+          <h3>Обрущение</h3>
+          <h4>(1923 Г.)</h4>
+        </div>
+        <img src="/img/obrushtenie.png" alt="hero-1">
+        <p>'Женски образ в съзерцание – може би самата България, представена като тиха, самотна и вечна. Орнаментиката и пастелната цветова палитра придават на творбата медитативна тежест.'</p>
+      </div>
+      <div class="what-item">
+        <div class="what-item-top">
+          <h3>Нашите майки все в черно ходят</h3>
+          <h4>(1923 Г.)</h4>
+        </div>
+        <img src="/img/mayki.png" alt="hero-1">
+        <p>'Женски образ в съзерцание – може би самата България, представена като тиха, самотна и вечна. Орнаментиката и пастелната цветова палитра придават на творбата медитативна тежест.'</p>
+      </div>
+      <div class="what-item">
+        <div class="what-item-top">
+          <h3>Светогорска легенда</h3>
+          <h4>(1923 Г.)</h4>
+        </div>
+        <img src="/img/legenda.png" alt="hero-1">
+        <p>'Женски образ в съзерцание – може би самата България, представена като тиха, самотна и вечна. Орнаментиката и пастелната цветова палитра придават на творбата медитативна тежест.'</p>
+      </div>
+      <div class="what-item">
+        <div class="what-item-top">
+          <h3>Разпятие</h3>
+          <h4>(1923 Г.)</h4>
+        </div>
+        <img src="/img/razpyatie.png" alt="hero-1">
+        <p>'Женски образ в съзерцание – може би самата България, представена като тиха, самотна и вечна. Орнаментиката и пастелната цветова палитра придават на творбата медитативна тежест.'</p>
+      </div>
+      <div class="what-item">
+        <div class="what1">
+          <p>изложба иван милев // 1 юли – 12 август 2025  // TATE Modern, Лондон</p>
+        </div>
+        <div class="what2">
+          <img src="/img/title.svg" alt="title">
+          <a class="cta" href="#">Купи билет</a>
+
+        </div>
+        <div class="what3">
+          <img src="/img/logo.svg" alt="logo">
+          <img src="/img/tate.svg" alt="tate">
+        </div>
+      </div>
+    </section>
+
+    <section class="quote">
+      <h2>„Милев създава в периферията на Европа, но с централна чувствителност – неговите творби говорят за душата на Балканите със същата сила, с която Климт рисува Виена.“</h2>
+    </section>
+
+   
+    <section class="tickets-wrapper">
+      <div class="tickets-top">
+        <h2>купи билет</h2>
+      </div>
+      <div class="tickets">
+        <div class="tickets-left">
+          <div class="tickets-left-top">
+            <p>изложба иван милев //
+              1 юли – 12 август 2025  //
+             TATE Modern, Лондон</p>
+             <h2>£12</h2>
+          </div>
+          <div class="tickets-left-bottom">
+            <p>стандартен билет</p>
+            <a class="cta" href="#">Купи билет</a>
+          </div>
+        </div>
+        <div class="tickets-right">
+          <div class="tickets-right-top">
+            <p>изложба иван милев //
+              1 юли – 12 август 2025  //
+             TATE Modern, Лондон</p>
+             <h2>£8</h2>
+          </div>
+          <div class="tickets-right-bottom">
+            <p>студентски билет</p>
+            <a class="cta" href="#">Купи билет</a>
+          </div>
+        </div>
+      </div>
+      <div class="tickets-info">
+        <div>Адрес: <br>
+          TATE Modern, <br> 
+          Bankside, London SE1 9TG</div>
+        <div>Работно време:<br>Пон–Нед: 10:00 – 18:00 ч.</div>
+        <div>С транспорт:<br>
+          Метро: St. Paul's или Southwark<br>
+          Автобуси: 45, 63, 100</div>
+          <div>С колело: 
+            Има стойки за велосипеди <br>
+            Достъпно за хора с увреждания <br>
+          </div>
+      </div>
+      
+    </section>
+
+    <footer>
+      <div class="footer-top">
         <picture>
           <source srcset="/img/logo.svg" type="image/svg+xml">
           <img src="/img/logo.svg" alt="logo">
         </picture>
       </div>
-      <div class="who-right">
-        <h3>Кой е иван милев?</h3>
-        <p>Иван Милев (1897 – 1927) е един от най-ярките представители на българския модернизъм и символизъм. Макар и с кратък творчески път, той оставя над 160 произведения – проникнати от дълбока чувствителност, фолклорни мотиви и драматизъм. </p>
-        <p>Учи декоративно изкуство във Виена, вдъхновява се от сецесиона и източноправославната иконопис. Милев умира едва на 30, но творчеството му остава завинаги – като визуална хроника на една цяла епоха.</p>
-        <p>Творчеството на Иван Милев се отличава с дълбок хуманизъм и национално самосъзнание. Той успява да въплъти духа на следвоенна България – изпълнена с болка, надежда и търсене на идентичност. В неговите образи – често жени, страдащи фигури или свети персонажи – се преплитат българският фолклор, модернистичният стил и личната му емоционална дълбочина. Макар и животът му да е кратък, изкуството му надживява времето – и остава актуално, разпознаваемо и дълбоко въздействащо до днес.</p>
+      <div class="footer-middle">
+        <h3>Спонсори и партньори</h3>
+        <img src="/img/logo.svg" alt="">
+        
+        <img src="/img/tate.svg" alt="">
+
+        <img src="/img/logo-71.svg" alt="">
+        
+        <img src="/img/logo-72.svg" alt="">
+        
+        <img src="/img/logo-77.svg" alt="">
+        
+        <img src="/img/logo-79.svg" alt="">
+        
+        <img src="" alt="">
       </div>
-    </div>
+      <div class="footer-bottom">
+        <p>© 2025 Иван Милев & TATE</p>
+        <img src="/img/frame-footer.png" alt="social media">
+        <p>info@ivanmilev-exhibition.com</p>
+      </div>
+    </footer>
 
   </div>
 

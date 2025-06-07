@@ -1,5 +1,5 @@
 :root {
-    --max-width: 1800px;
+    --max-width: 1380px;
 }
 
 * {
@@ -11,6 +11,7 @@
 body {
     background-color: var(--body-background);
     color: var(--color-main);
+    font-family: var(--font-text);
 }
 
 #app {
@@ -31,7 +32,7 @@ h2 {
     font-family: var(--font-header-main);
     font-size: 3.75rem;
     color: var(--color-main);
-    text-align: center;
+    font-weight: 400;
 }
 
 h3 {

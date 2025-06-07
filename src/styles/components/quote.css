@@ -1,0 +1,69 @@
+.quote {
+    max-width: var(--container-width);
+    margin-top: 7.5rem;
+}
+
+.quote h2 {
+    max-width: 75rem;
+}
+
+/* Large desktop */
+@media (max-width: 1600px) {
+  .quote {
+    margin-top: 6rem;
+  }
+  
+  .quote h2 {
+    max-width: 65rem;
+    font-size: 2.5rem;
+  }
+}
+
+/* Desktop */
+@media (max-width: 1400px) {
+  .quote {
+    margin-top: 5rem;
+  }
+  
+  .quote h2 {
+    max-width: 55rem;
+    font-size: 2.25rem;
+  }
+}
+
+/* Tablet and smaller desktop */
+@media (max-width: 1200px) {
+  .quote {
+    margin-top: 4rem;
+  }
+  
+  .quote h2 {
+    max-width: 45rem;
+    font-size: 2rem;
+  }
+}
+
+/* Large tablets */
+@media (max-width: 900px) {
+  .quote {
+    margin-top: 3rem;
+  }
+  
+  .quote h2 {
+    max-width: 35rem;
+    font-size: 1.75rem;
+  }
+}
+
+/* Mobile devices */
+@media (max-width: 600px) {
+  .quote {
+    margin-top: 2rem;
+  }
+  
+  .quote h2 {
+    max-width: 100%;
+    font-size: 1.25rem;
+    padding: 0 1rem;
+  }
+}

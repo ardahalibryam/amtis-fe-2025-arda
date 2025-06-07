@@ -1,0 +1,301 @@
+.what-title {
+    max-width: var(--max-width);
+    padding: 6rem 0 6rem 6.875rem;
+}
+
+.what-title-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.what-title-top h2 {
+    text-wrap: nowrap;
+}
+
+.what-title hr {
+    width: 50%;
+    height: 0.5rem;
+    background-color: var(--color-main);
+}
+
+.what-title p {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 1.5rem;
+    font-weight: 200;
+    max-width: 50%;
+    margin-top: 2.8rem;
+}
+
+.what {
+    max-width: var(--max-width);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, auto);
+}
+
+.what-item {
+    padding: 2.5rem 2rem;
+}
+
+.what-item-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-transform: uppercase;
+    align-items: center;
+    margin-bottom: 2.5rem;
+}
+
+.what-item-top h3 {
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: var(--font-title);
+}
+
+.what-item-top h4 {
+    font-size: 1.125rem;
+    font-weight: 200;
+    font-family: var(--font-title);
+    color: var(--font-text);
+}
+
+.what-item img {
+    width: 100%;
+}
+
+.what-item p {
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: var(--font-text);
+}
+
+.what1 p{
+    text-decoration: none;
+    color: var(--color-main);
+    font-family: var(--font-text);
+    font-size: 1.125rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    opacity: 0.6;
+}
+
+.what1 {
+    display: flex;
+    justify-content: center;
+}
+.what2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3.188rem;
+}
+
+.what2 .cta {
+    width: 9.125rem;
+}
+
+.what3 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.what3 img:nth-child(1) {
+    max-width: 200px;
+}
+
+.what3 img:nth-child(2) {
+    max-width: 100px;
+}
+
+.what div:nth-child(6) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.what-item {
+    border: 1px solid #545454;
+}
+
+/* Large desktop */
+@media (max-width: 1600px) {
+  .what-title {
+    padding: 5rem 0 5rem 5rem;
+  }
+  
+  .what-title p {
+    font-size: 1.25rem;
+  }
+  
+  .what-item-top h3 {
+    font-size: 1.75rem;
+  }
+}
+
+/* Desktop */
+@media (max-width: 1400px) {
+  .what-title {
+    padding: 4rem 0 4rem 4rem;
+  }
+  
+  .what-title hr {
+    width: 40%;
+  }
+  
+  .what-title p {
+    font-size: 1.125rem;
+    max-width: 60%;
+  }
+  
+  .what-item {
+    padding: 2rem 1.5rem;
+  }
+}
+
+/* Tablet and smaller desktop */
+@media (max-width: 1200px) {
+  .what-title {
+    padding: 3rem 0 3rem 3rem;
+  }
+  
+  .what-title hr {
+    width: 30%;
+  }
+  
+  .what-title p {
+    font-size: 1rem;
+    max-width: 70%;
+  }
+  
+  .what {
+    grid-template-columns: 1fr;
+  }
+  
+  .what-item-top h3 {
+    font-size: 1.5rem;
+  }
+  
+  .what-item p {
+    font-size: 1.25rem;
+  }
+}
+
+/* Large tablets */
+@media (max-width: 900px) {
+  .what-title {
+    padding: 2.5rem 1.5rem;
+  }
+  
+  .what-title-top {
+    gap: 1rem;
+  }
+  
+  .what-title hr {
+    width: 25%;
+  }
+  
+  .what-title p {
+    font-size: 0.875rem;
+    max-width: 100%;
+    margin-top: 2rem;
+  }
+  
+  .what-item {
+    padding: 1.5rem 1rem;
+  }
+  
+  .what-item-top {
+    margin-bottom: 1.5rem;
+  }
+  
+  .what2 {
+    gap: 2rem;
+  }
+  
+  .what3 img:nth-child(1) {
+    max-width: 150px;
+  }
+  
+  .what3 img:nth-child(2) {
+    max-width: 80px;
+  }
+}
+
+/* Mobile devices */
+@media (max-width: 600px) {
+  .what-title {
+    padding: 2rem 1rem;
+  }
+  
+  .what-title-top {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  
+  .what-title hr {
+    width: 100%;
+  }
+  
+  .what-title p {
+    font-size: 0.75rem;
+  }
+  
+  .what-item {
+    padding: 1rem;
+  }
+  
+  .what-item-top {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .what-item-top h3 {
+    font-size: 1.25rem;
+  }
+  
+  .what-item-top h4 {
+    font-size: 0.875rem;
+  }
+  
+  .what-item p {
+    font-size: 0.875rem;
+  }
+  
+  .what1 p {
+    font-size: 0.75rem;
+    text-align: center;
+  }
+  
+  .what2 {
+    gap: 1.5rem;
+  }
+  
+  .what2 .cta {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .what3 {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .what3 img:nth-child(1) {
+    max-width: 120px;
+  }
+  
+  .what3 img:nth-child(2) {
+    max-width: 60px;
+  }
+}
