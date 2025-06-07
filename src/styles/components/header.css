@@ -1,0 +1,35 @@
+header {
+    max-width: var(--max-width);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.25rem 2rem;
+    width: 100%;
+}
+
+header .header-left,
+header .header-right {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+header a {
+    font-family: var(--font-text);
+    font-size: 1.125rem;
+    text-decoration: none;
+    color: var(--color-main);
+    text-transform: uppercase;
+}
+
+header a:hover {
+    color: var(--color-title);
+}
+
+header picture {
+   max-height: 3rem;
+}
+
+header picture img {
+    max-height: 3rem;
+}

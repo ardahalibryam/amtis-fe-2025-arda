@@ -1,0 +1,96 @@
+.hero {
+    padding: 0 5rem;
+}
+
+.hero-title {
+    display: flex;
+    flex-direction: column;
+    padding: 10.75rem 0;
+}
+
+.hero-title h1 {
+    font-weight: 400;
+}
+
+.hero-title h1:nth-child(2) {
+    margin-left: 18rem;
+    margin-top: -5rem;
+}
+
+.hero .cursive {
+    font-family: var(--font-header-secondary);
+    font-size: 10rem;
+}
+
+.hero-title {
+    position: relative;
+}
+
+.hero-title img {
+    position: absolute;
+}
+
+.hero-title .hero_one {
+    left: 0;
+    bottom: 0;
+}
+
+.hero-title .hero_three {
+    left: 38rem;
+    bottom: 3.5rem;
+}
+
+.hero-title .hero_two {
+    left: 14rem;
+    top: 6.5rem;
+}
+
+.hero-title .hero_four {
+    right: 6rem;
+    top: 7.5rem;
+}
+
+.hero-title .hero_five {
+    right: 0;
+    bottom: 4.5rem;
+}
+
+.hero_two, .hero_four {
+    z-index: -10;
+}
+
+#cta {
+    color: var(--body-background);
+    font-family: var(--font-text);
+    background-color: var(--color-main);
+    padding: 0.75rem 2rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+.hero-cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 5rem;
+}
+
+.hero-cta a {
+    font-family: var(--font-text);
+    font-size: 1.125rem;
+}
+
+.hero-cta p {
+    text-decoration: none;
+    color: var(--color-main);
+    font-family: var(--font-text);
+    font-size: 1.125rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    opacity: 0.6;
+}

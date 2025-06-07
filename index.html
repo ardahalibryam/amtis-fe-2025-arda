@@ -4,12 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Иван Милев</title>
+    <html lang="bg">
     <link rel="stylesheet" href="/src/styles/main.css" />
     <link rel="stylesheet" href="/src/styles/abstracts/color.css" />
     <link rel="stylesheet" href="/src/styles/abstracts/typography.css" />
     <link rel="stylesheet" href="/src/styles/components/header.css" />
     <link rel="stylesheet" href="/src/styles/components/hero.css" />
-    <link rel="stylesheet" href="/src/styles/components/footer.css" />
+    <link rel="stylesheet" href="/src/styles/components/why.css" />
+    <link rel="stylesheet" href="/src/styles/components/who.css" />
+    <link rel="stylesheet" href="/src/styles/components/what.css" />
+    <link rel="stylesheet" href="/src/styles/components/quote.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Great+Vibes&display=swap" rel="stylesheet">
@@ -18,9 +22,73 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
   </head>
   <body>
+    <div id="app">
     <header>
-      
+      <div class="header-left">
+        <a href="#">За изложбата</a>
+        <a href="#">За автора</a>
+      </div>
+      <picture>
+        <source srcset="/img/logo.svg" type="image/svg+xml">
+        <img src="/img/logo.svg" alt="logo">
+      </picture>
+      <div class="header-right">
+        <a href="#">Начало</a>
+        <a href="#">Купи билет</a>
+      </div>
     </header>
+    <main>
+      <section class="hero">
+        <div class="hero-title">
+          <h1><span class="cursive">Изкуство</span>, което</h1>
+          <h1>говори с <span class="cursive">тишина</span></h1>
+          <img class="hero_one" src="/img/hero_one.png" alt="hero-1">
+          <img class="hero_two" src="/img/hero_two.png" alt="hero-2">
+          <img class="hero_three" src="/img/hero_three.png" alt="hero-3">
+          <img class="hero_four" src="/img/hero_four.png" alt="hero-4">
+          <img class="hero_five" src="/img/hero_five.png" alt="hero-5">
+        </div>
+        <div class="hero-cta">
+        <a id="cta" href="#">Купи билет</a>
+        <p>изложба иван милев // 1 юли – 12 август 2025  // TATE Modern, Лондон</p>
+        </div>
+      </section>
+      <section class="why">
+        <div class="why-left">
+          <h2>Защо тази изложба?</h2>
+          <div class="why-dates">
+            <p>01.07</p>
+            <hr>
+            <p>12.08</p>
+          </div>
+          <a id="cta" href="#">Купи билет</a>
+        </div>
+        <div class="why-right">
+          <h3>за изложбата</h3>
+          <p>„Иван Милев: Българският символизъм в сърцето на Лондон“ е първата мащабна международна изложба на един от най-значимите български художници на 20-ти век.</p>
+          <p>Тя има за цел да представи Милев като самобитен европейски творец, чието изкуство съчетава орнаментика, социална чувствителност и мистицизъм.</p>
+          <p>Посетителите ще открият визуален свят, в който се преплитат народна естетика, модернизъм и дълбока човешка емоция – все още болезнено актуални и днес.</p>
+        </div>
+      </section>
+    </main>
+
+    <div class="who">
+      <div class="who-left">
+        <img src="/img/portrait.png" alt="">
+        <picture>
+          <source srcset="/img/logo.svg" type="image/svg+xml">
+          <img src="/img/logo.svg" alt="logo">
+        </picture>
+      </div>
+      <div class="who-right">
+        <h3>Кой е иван милев?</h3>
+        <p>Иван Милев (1897 – 1927) е един от най-ярките представители на българския модернизъм и символизъм. Макар и с кратък творчески път, той оставя над 160 произведения – проникнати от дълбока чувствителност, фолклорни мотиви и драматизъм. </p>
+        <p>Учи декоративно изкуство във Виена, вдъхновява се от сецесиона и източноправославната иконопис. Милев умира едва на 30, но творчеството му остава завинаги – като визуална хроника на една цяла епоха.</p>
+        <p>Творчеството на Иван Милев се отличава с дълбок хуманизъм и национално самосъзнание. Той успява да въплъти духа на следвоенна България – изпълнена с болка, надежда и търсене на идентичност. В неговите образи – често жени, страдащи фигури или свети персонажи – се преплитат българският фолклор, модернистичният стил и личната му емоционална дълбочина. Макар и животът му да е кратък, изкуството му надживява времето – и остава актуално, разпознаваемо и дълбоко въздействащо до днес.</p>
+      </div>
+    </div>
+
+  </div>
 
     <script type="module" src="/src/scripts/main.js"></script>
   </body>
