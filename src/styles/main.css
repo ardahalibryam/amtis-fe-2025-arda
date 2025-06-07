@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--body-background);
+}
+
+h1 {
+    font-family: var(--font-header-main);
+    font-size: 6.25rem;
+    color: var(--color-title);
+    text-align: center;
+}
+
+h2 {
+    font-family: var(--font-header-main);
+    font-size: 3.75rem;
+    color: var(--color-main);
+    text-align: center;
+}
+
+h3 {
+    font-family: var(--font-header-main);
+    font-size: 1.125rem;
+    color: var(--color-main);
+}
